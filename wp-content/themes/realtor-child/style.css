@@ -1,0 +1,293 @@
+/*
+Theme Name: Realtor Child
+Author: WowTheme
+Version: 1.0
+Author URI: http://themeforest.net/user/wow_themes
+Theme URI: http://themeforest.net/user/wow_themes
+Description: A sleek and clean Make-up WordPress Theme by - <a href="http://wow-themes.com/">WowThemes</a>
+License: ''
+License URI: ''
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, custom-header, custom-menu, editor-style, featured-images, rtl-language-support, sticky-post, translation-ready, microformats
+Text Domain: wp_realtor
+template: realtor
+*/
+
+@import url('../realtor/style.css');
+
+*{color:#777}
+
+.blog {padding:0;background-color:initial;}
+.blog .sticky {padding:0 !important;margin:0;background-color:#fff !important}
+.blog.row.m0.single_post , .contentRowPad{padding:0}
+.fa {color:#fff;}
+
+#wp-submit{color:#333333}
+*{color:#777}
+header:before { background: rgba(255,255,255,0);}
+header nav .ownmenu {min-height:80px;max-height:85px}
+header .logo {margin:0;padding:0}
+ul.left-bar-side {line-height:10px;margin:0 auto}
+.logo img {width:auto;height:auto;padding-top:9px;}
+
+.sub-banner .overlay {padding-top:220px;}
+
+.sub-banner h1 {margin-bottom:220px;}
+
+.breadcrumb {background-color:#1E8BCB !important}
+.sub-banner .breadcrumb {display:block !important;}
+
+h4{color:#1E8BCB;}
+.top-bar {color:#fff;background-repeat:no-repeat; background-color:
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fab54a+0,fab54a+19,eaab2c+50,1e5da5+50,1e5da5+100 */
+background: #fab54a; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #fab54a 0%, #fab54a 19%, #eaab2c 50%, #1e5da5 50%, #1e5da5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #fab54a 0%,#fab54a 19%,#eaab2c 50%,#1e5da5 50%,#1e5da5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #fab54a 0%,#fab54a 19%,#eaab2c 50%,#1e5da5 50%,#1e5da5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fab54a', endColorstr='#1e5da5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.top-bar .left-bar-side p{color:#fff;line-height:initial}
+.top-bar .left-bar-side input{color:#000;}
+.top-bar ul li a {color:#ffffff; padding 40px 1px;}
+header nav > ul > li:hover {background:none}
+header nav li.active a {color:#1E8BCB;}
+header nav li:hover a {color:#1E8BCB;}
+header nav li {margin-top:8px;}
+
+header nav > ul > li.active, header nav > ul > li:hover {
+    background:none!important;
+}
+.login-submit{color:#333333}
+.all-properties, .home_featured, .wpp_row_view{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+#form1 label{width:160px;display:inline-block}
+
+ul.menu {text-align:center}
+ul.menu li {display:inline-block;font-size:1.2em;padding:16px;}
+ul.menu li a {color:#fff;}
+
+.formerr {font-weight:700;color:#9a0000;padding:2px;background-color:#f9efef}
+.brokerprofilebutton{background-color:#1E8BCB;padding:4px;border:0;color:#fff}
+.portfoliobutton{background-color:#1E8BCB;padding:7px;margin:0;line-height:initial;font-size:13px;border:0;color:#fff}
+
+section#content, .container{max-width:1170px;margin:0 auto;margin-top:0}
+
+.top-bar ul li a {
+    display: inline-block;
+    padding: 1px !important;
+    line-height: 40px;
+}
+
+.top-bar .left-bar-side span
+{margin:0 !important}
+
+.sub-banner .overlay {
+    background: rgba(0,0,0,0.0) !important;
+
+}
+
+
+.breadcrumb {
+    
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fab54a+0,fab54a+19,eaab2c+50,1e5da5+50,1e5da5+100 */
+background: #fab54a !important; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #fab54a 0%, #fab54a 19%, #eaab2c 50%, #1e5da5 50%, #1e5da5 100%) !important; /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #fab54a 0%,#fab54a 19%,#eaab2c 50%,#1e5da5 50%,#1e5da5 100%) !important; /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #fab54a 0%,#fab54a 19%,#eaab2c 50%,#1e5da5 50%,#1e5da5 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fab54a', endColorstr='#1e5da5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.sub-banner {
+    position: relative;
+    margin-top: 2px;
+    background-size: inherit !important;
+    text-align: center;
+     height: 527px;
+}
+
+.sub-banner h1 {
+  
+    display: none !important;
+}
+
+.sub-banner .overlay {
+    padding-top: 480px !important;
+}
+
+p {
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 24px;
+	color:#777 !important;
+}
+p li {
+	color:#777 !important;
+}
+
+.input-narrow {width: 85%; }
+.overview_detail{list-style-type:none !important;}
+.overview_detail::before {
+    content: "\f138";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+	padding-right:1px;
+	color:#1E5DA5;
+/*--adjust as necessary--*/
+}
+
+.featured_listing{
+vertical-align:top;margin-right: 12px;  width: 460px;   border: 1px solid #f9b854;    margin-bottom: 18px;    display: inline-block;
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 88%, #f9b854 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 88%,#f9b854 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 88%,#f9b854 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f9b854',GradientType=0 ); /* IE6-9 */
+
+}
+.featured_listing h4 a{color:#1e5da5}
+.header{margin-top:-3px}
+.top-bar{height:42px !important;}
+#logindiv label {color:#fff !important;padding-right:2px; font-weight:400}
+#logindiv input#wp-submit.button-primary {padding:2px 10px !important;}
+
+
+.broker-badge{ border: 1px solid #067aca;
+    color: #067aca;
+    padding: 4px;
+    border-radius: 3px;
+    width: 120px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+footer .widget_text{color:#ffffff}
+
+
+
+        .dvRow {
+            width: 100%;
+            clear: both;
+            margin: auto;
+        }
+
+        .search-orange-heading {
+            color: #e99309;
+            font-size: 1.3em;
+            line-height: 1.4em;
+        }
+
+        .search-blue-heading {
+            color: #3b5998;
+            font-size: 1.3em;
+            line-height: 1.4em;
+        }
+
+        .search-sub-text {
+            color: #807e7e;
+            margin-bottom: 10px;
+        }
+
+        .search-price-blue {
+            color: #4672b2;
+            font-size: 1.3em;
+            line-height: normal;
+        }
+
+        .search-btn {
+            border-radius: 0px;
+            background-color: #C4202B !important;
+            border-color: #C4202B;
+            padding: 3px 12px;
+            font-weight:400 !important;            
+        }
+
+        .search-btn:hover {
+            border-radius: 0px;
+            background-color: #C4202B !important;
+            border-color: #C4202B;
+        }
+@media (min-width:768px) and (max-width:12000px) {
+        .search-btn-row {
+          position: relative;
+          top:-105px;
+          left:40px;
+        }
+}
+
+.portfolio_action_button {}
+.portfolio-add {background-color:#f9b854;padding:6px;border-radius:6px;border:1px solid #1e5da5;color:#fff}
+
+.portfoliostatus {width:100%;color:#fff}
+
+.portfoliostatus.added {background: #3b4963; /* Old browsers */
+background: -moz-linear-gradient(left, #3b4963 35%, #59657a 61%, #98a0ac 83%, #d1d6da 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(35%,#3b4963), color-stop(61%,#59657a), color-stop(83%,#98a0ac), color-stop(100%,#d1d6da)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #3b4963 35%,#59657a 61%,#98a0ac 83%,#d1d6da 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, #3b4963 35%,#59657a 61%,#98a0ac 83%,#d1d6da 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, #3b4963 35%,#59657a 61%,#98a0ac 83%,#d1d6da 100%); /* IE10+ */
+background: linear-gradient(to right, #3b4963 35%,#59657a 61%,#98a0ac 83%,#d1d6da 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b4963', endColorstr='#d1d6da',GradientType=1 ); /* IE6-9 */
+padding:3px;}
+
+.portfoliostatus.deleted {background: #ea2803; /* Old browsers */
+background: -moz-linear-gradient(left, #ea2803 30%, #ff6600 65%, #ffb787 99%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(30%,#ea2803), color-stop(65%,#ff6600), color-stop(99%,#ffb787)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #ea2803 30%,#ff6600 65%,#ffb787 99%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, #ea2803 30%,#ff6600 65%,#ffb787 99%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, #ea2803 30%,#ff6600 65%,#ffb787 99%); /* IE10+ */
+background: linear-gradient(to right, #ea2803 30%,#ff6600 65%,#ffb787 99%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea2803', endColorstr='#ffb787',GradientType=1 ); /* IE6-9 */
+padding:3px;}
+
+.portfoliostatus.released {background: #3b679e; /* Old browsers */
+background: -moz-linear-gradient(left, #3b679e 0%, #7db9e8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#3b679e), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #3b679e 0%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, #3b679e 0%,#7db9e8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, #3b679e 0%,#7db9e8 100%); /* IE10+ */
+background: linear-gradient(to right, #3b679e 0%,#7db9e8 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+padding:3px;}
+
+
+
+
+/**
+    Search Results, Filter & Pagination
+*/
+
+.searchresult {
+    display: block;
+    clear: both;
+    border: 1px solid steelblue;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 220px;
+}
+
+/*.pagination.pagination-sm .glyphicon {
+    top: 10px;
+}*/
+
+
+.listing_content {
+    border: 1px solid #dfdfdf;
+    padding: 12px;
+    margin: 0 0 15px 0;
+}
+
+.listing_add_to_portfolio_button {
+    margin-top: 20px;
+}
