@@ -36,7 +36,7 @@ add_filter('wp_head','bbcrm_set_wp_title');
 
 function bbcrm_enqueue_scripts(){
 	//wp_enqueue_script( 'ajaxform', get_stylesheet_directory_uri() . '/js/ajaxform.js', array(), '1.0.0', true );
-	wp_enqueue_script('my_script',plugin_dir_url(__FILE__)."js/lib.js", array('jquery'), '1.0.0');
+	wp_enqueue_script('my_bcrm_plugin_script',plugin_dir_url(__FILE__)."js/lib.js");
 	wp_enqueue_script('web-tracker',get_bloginfo('url').'/crm/webTracker.php');
 	wp_enqueue_style('bbcrm',plugin_dir_url(__FILE__)."css/style.css");
 	wp_enqueue_style('bbcrm',plugin_dir_url(__FILE__)."css/wp_properties.css");

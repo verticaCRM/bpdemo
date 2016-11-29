@@ -72,7 +72,7 @@ if(!$pic_name){
 
 </div>
 <div style="display:inline-block;max-width:320px;vertical-align:top"><h4  style="" ><a href="/listing/<?php echo sanitize_title($listing->c_name_generic_c)?>" class="listing_link" data-id='<?php echo $listing->id;?>'><?php echo $listing->c_name_generic_c;?></a></h4></div>
-<!-- Here is the new div--><div style="display:inline-block" class="">
+<!-- Here is the new div--><div style="display:block">
 
         <div>
             <ul class="wpp_overview_data">            
